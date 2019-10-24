@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColourActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="411dp"
+            android:layout_height="660dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="115dp">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="188dp"
+                    android:layout_height="150dp"
+                    android:background="@android:color/black"
+                    android:onClick="press1" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="222dp"
+                    android:layout_height="150dp"
+                    android:background="#00FFFF"
+                    android:onClick="press2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="#FF0000"
+                    android:onClick="press3" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="#00FF00"
+                    android:onClick="press4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="#FFFF00"
+                    android:onClick="press5" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="#FF00FF"
+                    android:onClick="press6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="#808080"
+                    android:onClick="press7" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@android:color/white"
+                    android:onClick="press8" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
